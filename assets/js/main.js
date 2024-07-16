@@ -7,10 +7,11 @@ $(".hero-area").owlCarousel({
     smartSpeed: 750,
 });
 
-// Cars
+// Economical Cars Carousel
 $(".swift").owlCarousel({
     items: 1,
     loop: true,
+    autoplay:true,
     dots: false,
     autoplayTimeout: 3000,
 });
@@ -18,6 +19,8 @@ $(".swift").owlCarousel({
 $(".ford").owlCarousel({
     items: 1,
     loop: true,
+    autoplay: true,
+    smartSpeed: 750,
     dots: false,
     autoplayTimeout: 3000,
 });
@@ -25,6 +28,8 @@ $(".ford").owlCarousel({
 $(".skoda").owlCarousel({
     items: 1,
     loop: true,
+    autoplay: true,
+    smartSpeed: 750,
     dots: false,
     autoplayTimeout: 3000,
 });
@@ -32,6 +37,8 @@ $(".skoda").owlCarousel({
 $(".tata-punch").owlCarousel({
     items: 1,
     loop: true,
+    autoplay: true,
+    smartSpeed: 750,
     dots: false,
     autoplayTimeout: 3000,
 });
@@ -39,6 +46,8 @@ $(".tata-punch").owlCarousel({
 $(".hyundai").owlCarousel({
     items: 1,
     loop: true,
+    autoplay: true,
+    smartSpeed: 750,
     dots: false,
     autoplayTimeout: 3000,
 });
@@ -46,6 +55,8 @@ $(".hyundai").owlCarousel({
 $(".alto").owlCarousel({
     items: 1,
     loop: true,
+    autoplay: true,
+    smartSpeed: 750,
     dots: false,
     autoplayTimeout: 3000,
 });
@@ -53,6 +64,8 @@ $(".alto").owlCarousel({
 $(".skoda-slavia").owlCarousel({
     items: 1,
     loop: true,
+    autoplay: true,
+    smartSpeed: 750,
     dots: false,
     autoplayTimeout: 3000,
 });
@@ -60,9 +73,85 @@ $(".skoda-slavia").owlCarousel({
 $(".tata-nexon").owlCarousel({
     items: 1,
     loop: true,
+    autoplay: true,
+    smartSpeed: 750,
     dots: false,
     autoplayTimeout: 3000,
 });
+// Economical Cars Carousel End
+
+// XUVs Car Carousel
+$(".toyota").owlCarousel({
+    items: 1,
+    loop: true,
+    autoplay:true,
+    dots: false,
+    autoplayTimeout: 3000,
+});
+
+$(".ford").owlCarousel({
+    items: 1,
+    loop: true,
+    autoplay: true,
+    smartSpeed: 750,
+    dots: false,
+    autoplayTimeout: 3000,
+});
+
+$(".skoda").owlCarousel({
+    items: 1,
+    loop: true,
+    autoplay: true,
+    smartSpeed: 750,
+    dots: false,
+    autoplayTimeout: 3000,
+});
+
+$(".tata-punch").owlCarousel({
+    items: 1,
+    loop: true,
+    autoplay: true,
+    smartSpeed: 750,
+    dots: false,
+    autoplayTimeout: 3000,
+});
+
+$(".hyundai").owlCarousel({
+    items: 1,
+    loop: true,
+    autoplay: true,
+    smartSpeed: 750,
+    dots: false,
+    autoplayTimeout: 3000,
+});
+
+$(".alto").owlCarousel({
+    items: 1,
+    loop: true,
+    autoplay: true,
+    smartSpeed: 750,
+    dots: false,
+    autoplayTimeout: 3000,
+});
+
+$(".skoda-slavia").owlCarousel({
+    items: 1,
+    loop: true,
+    autoplay: true,
+    smartSpeed: 750,
+    dots: false,
+    autoplayTimeout: 3000,
+});
+
+$(".tata-nexon").owlCarousel({
+    items: 1,
+    loop: true,
+    autoplay: true,
+    smartSpeed: 750,
+    dots: false,
+    autoplayTimeout: 3000,
+});
+// XUVs Cars Carouel End
 
 // Tabs Menu 
 
@@ -75,16 +164,3 @@ $("#tabs-nav a").click( function(e) {
 	$(this).css("background-color", "#9f1c33");
 	$( $(this).data("tab") ).show();
 })
-
-// Slider Buttons
-var slider = $(".owl-carousel");
-
-$(".carousel-prev").click(function() {
-    slider.trigger("prev.owl.carousel")
-});
-
-$(".carousel-next").click(function() {
-    slider.trigger("next.owl.carousel")
-});
-// Ford Button
-

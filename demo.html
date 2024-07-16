@@ -3,26 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Date and Time Input Form</title>
+    <title>Testimonial Section</title>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
-<body class="bg-gray-100 flex items-center justify-center h-screen">
-    <div class="bg-white p-6 rounded shadow-md w-full max-w-sm">
-        <form>
-            <div class="mb-4">
-                <label for="pickup" class="block text-gray-700 text-sm font-bold mb-2">Pickup Date & Time</label>
-                <input type="datetime-local" id="pickup" name="pickup" placeholder="Select pickup date & time" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline">
+<body>
+    <section class="bg-gray-100 py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-base font-semibold tracking-wide text-indigo-600 uppercase">Testimonials</h2>
+                <p class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+                    What our clients are saying
+                </p>
             </div>
-            <div class="mb-4">
-                <label for="dropoff" class="block text-gray-700 text-sm font-bold mb-2">Dropoff Date & Time</label>
-                <input type="datetime-local" id="dropoff" name="dropoff" placeholder="Select dropoff date & time" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline">
+            <div class="grid gap-8 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1">
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <div class="flex items-center mb-4">
+                        <img class="w-12 h-12 rounded-full mr-4" src="https://via.placeholder.com/150" alt="Avatar">
+                        <div>
+                            <h3 class="text-lg font-medium leading-6 text-gray-900">John Doe</h3>
+                            <p class="text-gray-600">CEO, Company Inc.</p>
+                        </div>
+                    </div>
+                    <p class="mt-2 text-gray-600">
+                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante."
+                    </p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <div class="flex items-center mb-4">
+                        <img class="w-12 h-12 rounded-full mr-4" src="https://via.placeholder.com/150" alt="Avatar">
+                        <div>
+                            <h3 class="text-lg font-medium leading-6 text-gray-900">Jane Smith</h3>
+                            <p class="text-gray-600">CTO, Another Co.</p>
+                        </div>
+                    </div>
+                    <p class="mt-2 text-gray-600">
+                        "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
+                    </p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <div class="flex items-center mb-4">
+                        <img class="w-12 h-12 rounded-full mr-4" src="https://via.placeholder.com/150" alt="Avatar">
+                        <div>
+                            <h3 class="text-lg font-medium leading-6 text-gray-900">Alice Johnson</h3>
+                            <p class="text-gray-600">CMO, Example LLC</p>
+                        </div>
+                    </div>
+                    <p class="mt-2 text-gray-600">
+                        "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                    </p>
+                </div>
             </div>
-            <div class="flex items-center justify-between">
-                <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="button">
-                    Submit
-                </button>
-            </div>
-        </form>
-    </div>
+        </div>
+    </section>
 </body>
 </html>

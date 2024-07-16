@@ -37,8 +37,40 @@
     transition: .5s;
 }
 
+/* Promo Box */
+/* .promo-box-left {
+    position: relative;
+    z-index: 1;
+    padding-top: 70px;
+    padding-bottom: 50px;    
+} */
+.promo-box-left::before {
+    position: absolute;
+    background: #fff none repeat scroll 0 0;
+    content: "";
+    top: 0;
+    right: 43%;
+    width: 70px;
+    height: 100%;
+    /* -webkit-transform: skewX(45deg); */
+    transform: skewX(45deg);
+    z-index: -1;
+}
+.promo-box-left::after {
+    position: absolute;
+    background: #9f1c33 none repeat scroll 0 0;
+    content: "";
+    top: 0;
+    right: 55%;
+    width: 2030px;
+    height: 100%;
+    /* -webkit-transform: skewX(45deg); */
+    transform: skewX(45deg);
+    z-index: -1;
+}
+
 /* Rentel car next and prev */
-.btn-slider .owl-prev{
+/* .btn-slider .owl-prev{
     position: absolute;
     top: 50%;
     left: 0px;
@@ -53,4 +85,4 @@
     transform: translate(0, -50%);
     display: flex;
     z-index: 100;
-}
+} */
