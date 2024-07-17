@@ -78,6 +78,16 @@
     display: flex;
     z-index: 100;    
 }
+@media screen and (max-width: 768px){
+    .btn-slider .owl-prev{
+        position: absolute;
+        top: 90%;
+        left: 50px;
+        transform: translate(0, -50%);
+        display: flex;
+        z-index: 100;    
+    }
+}
 .btn-slider .owl-next{
     position: absolute;
     top: 50%;
@@ -85,4 +95,14 @@
     transform: translate(0, -50%);
     display: flex;
     z-index: 100;
+}
+@media screen and (max-width: 768px) {
+    .btn-slider .owl-next{        
+        position: absolute;
+        top: 90%;
+        right: 20%;
+        transform: translate(0, -50%);
+        display: flex;
+        z-index: 100;
+    }   
 }
