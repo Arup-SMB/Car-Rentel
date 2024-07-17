@@ -69,11 +69,11 @@
     z-index: -1;
 }
 
-/* Rentel car next and prev */
-/* .btn-slider .owl-prev{
+/* Testimonial Buttons */
+.btn-slider .owl-prev{
     position: absolute;
     top: 50%;
-    left: 0px;
+    left: 20%;
     transform: translate(0, -50%);
     display: flex;
     z-index: 100;    
@@ -81,8 +81,8 @@
 .btn-slider .owl-next{
     position: absolute;
     top: 50%;
-    right: 35px;
+    right: 20%;
     transform: translate(0, -50%);
     display: flex;
     z-index: 100;
-} */
+}
