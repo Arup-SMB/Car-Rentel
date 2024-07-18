@@ -76,7 +76,7 @@
     left: 20%;
     transform: translate(0, -50%);
     display: flex;
-    z-index: 100;    
+    z-index: 100;
 }
 @media screen and (max-width: 768px){
     .btn-slider .owl-prev{
@@ -85,7 +85,7 @@
         left: 50px;
         transform: translate(0, -50%);
         display: flex;
-        z-index: 100;    
+        z-index: 100;
     }
 }
 .btn-slider .owl-next{
@@ -106,3 +106,12 @@
         z-index: 100;
     }   
 }
+
+/* Tab Setings */
+/* .tab-content > div {
+    display: none;
+}
+
+.tab-content .active {
+    display: block;
+}  */

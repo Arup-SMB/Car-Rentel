@@ -399,6 +399,14 @@ $('.hycross-btn-right').click(function() {
 })
 
 // Tabs Menu 
+// const allBtns = $(".tab-btns > li");
+// const allTabs = $(".tab-content > div");
+// allBtns.click( function() {
+//   allBtns.removeClass("active");
+//   $(this).addClass("active");
+//   allTabs.removeClass("active");
+//   $( $(this).data("tab") ).addClass("active");
+// });
 
 $("#tabs-nav a").click( function(e) {
 	e.preventDefault();
@@ -421,3 +429,16 @@ $(".carousel-prev").click(function() {
 $(".carousel-next").click(function() {
     slider.trigger("next.owl.carousel")
 });
+
+
+
+// navbar toggle class
+document.querySelector("#navbarBtn").addEventListener("click", () => {
+    if(document.querySelector("#navbar-item").classList.contains("hidden")){
+        document.querySelector("#navbar-item").classList.toggle("hidden");
+        document.querySelector("#navbar-item").classList.toggle("block");
+    }else{
+        document.querySelector("#navbar-item").classList.toggle("block");
+        document.querySelector("#navbar-item").classList.toggle("hidden");
+    }
+})
